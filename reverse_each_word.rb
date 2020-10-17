@@ -1,8 +1,14 @@
-def reverse_each_word(string)
+def reverse_each_word(sentence)
+  array = []
   
-  
-  array.each do |word|
-    word.reverse
+  sentence.split.each do |word|
+    array <<
     
   end 
 end 
+
+def reverse_word_order(sentence)
+  reversed = []
+  sentence.split.each do |word|
+    reversed.unshift word
+  end
